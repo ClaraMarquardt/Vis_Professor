@@ -1,0 +1,986 @@
+
+@font-face {
+                          font-family: "GB18030Bitmap";
+                          src: url('../fonts/NISC18030.ttf') format("truetype");
+                        }
+                        
+.artboard {
+  width               : 100%;
+  min-width           : 300px;
+  max-width           : 1000px;
+  height              : 100vh;
+  min-height          : 1500px;
+  position            : relative;
+  overflow            : hidden;
+  margin              : 100px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color    : rgba(255, 255, 255, 1.0);
+}
+a {
+  text-decoration     : none;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.anima-full-width-a {
+  width               : 100%;
+}
+.anima-full-height-a {
+  height              : 100%;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.artboard .rectangle {
+/*  background-color    : rgba(215, 215, 215, 1.0);
+*/  top                 : 20.60%;
+  height              : 11.20%;
+  box-sizing          : border-box;
+  width               : 64.88%;
+  position            : absolute;
+  margin              : 0;
+  left                : 4.25%;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(150, 150, 150, 1.0);
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.artboard .rectangle1 {
+/*  background-color    : rgba(215, 215, 215, 1.0);
+*/  right               : 3.00%;
+  top                 : 36.93%;
+  height              : 11.20%;
+  box-sizing          : border-box;
+  width               : 64.88%;
+  position            : absolute;
+  margin              : 0;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(150, 150, 150, 1.0);
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.artboard .rectangle2 {
+/*  background-color    : rgba(215, 215, 215, 1.0);
+*/  bottom              : 35.53%;
+  height              : 11.20%;
+  box-sizing          : border-box;
+  width               : 64.88%;
+  position            : absolute;
+  margin              : 0;
+  left                : 4.25%;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(150, 150, 150, 1.0);
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.artboard .rectangle3 {
+/*  background-color    : rgba(215, 215, 215, 1.0);
+*/  right               : 3.00%;
+  bottom              : 19.20%;
+  height              : 11.20%;
+  box-sizing          : border-box;
+  width               : 64.88%;
+  position            : absolute;
+  margin              : 0;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(150, 150, 150, 1.0);
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.artboard .path {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 28.50%;
+  top                 : 3.47%;
+  height              : 3.53%;
+  width               : 6.37%;
+  position            : absolute;
+  margin              : 0;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.artboard .path2 {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 28.00%;
+  top                 : 6.67%;
+  height              : 2.33%;
+  width               : 6.75%;
+  position            : absolute;
+  margin              : 0;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.artboard .path3 {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 13.12%;
+  top                 : 0.20%;
+  height              : 5.73%;
+  width               : 17.25%;
+  position            : absolute;
+  margin              : 0;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.artboard .path5 {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 19.12%;
+  top                 : 14.67%;
+  height              : 2.53%;
+  width               : 5.25%;
+  position            : absolute;
+  margin              : 0;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.artboard .path6 {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 9.38%;
+  top                 : 13.93%;
+  height              : 3.33%;
+  width               : 4.63%;
+  position            : absolute;
+  margin              : 0;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.artboard .path4 {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 3.75%;
+  top                 : 6.27%;
+  height              : 8.53%;
+  width               : 26.00%;
+  position            : absolute;
+  margin              : 0;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.artboard .path7 {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 3.88%;
+  top                 : 5.60%;
+  height              : 0.80%;
+  width               : 9.38%;
+  position            : absolute;
+  margin              : 0;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.artboard .polygon {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 6.62%;
+  top                 : 5.20%;
+  height              : 3.80%;
+  width               : 28.12%;
+  position            : absolute;
+  margin              : 0;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.artboard .polygon1 {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 20.62%;
+  top                 : 3.60%;
+  height              : 3.80%;
+  width               : 14.12%;
+  position            : absolute;
+  margin              : 0;
+  -ms-transform       : rotate(-29deg); /* IE 9 */
+  -webkit-transform   : rotate(-29deg); /* Chrome, Safari, Opera */
+  transform           : rotate(-29deg);
+}
+.artboard .polygon2 {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 15.87%;
+  top                 : 4.27%;
+  height              : 3.80%;
+  width               : 14.12%;
+  position            : absolute;
+  margin              : 0;
+  -ms-transform       : rotate(-29deg); /* IE 9 */
+  -webkit-transform   : rotate(-29deg); /* Chrome, Safari, Opera */
+  transform           : rotate(-29deg);
+}
+.artboard .polygon3 {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 12.50%;
+  top                 : 5.13%;
+  height              : 3.80%;
+  width               : 14.12%;
+  position            : absolute;
+  margin              : 0;
+  -ms-transform       : rotate(-29deg); /* IE 9 */
+  -webkit-transform   : rotate(-29deg); /* Chrome, Safari, Opera */
+  transform           : rotate(-29deg);
+}
+.artboard .polygon4 {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 5.12%;
+  top                 : 5.73%;
+  height              : 3.80%;
+  width               : 14.12%;
+  position            : absolute;
+  margin              : 0;
+  -ms-transform       : rotate(-14deg); /* IE 9 */
+  -webkit-transform   : rotate(-14deg); /* Chrome, Safari, Opera */
+  transform           : rotate(-14deg);
+}
+.artboard .path8 {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 11.87%;
+  top                 : 7.93%;
+  height              : 2.60%;
+  width               : 11.75%;
+  position            : absolute;
+  margin              : 0;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.artboard .path9 {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 20.25%;
+  top                 : 2.60%;
+  height              : 3.20%;
+  width               : 4.63%;
+  position            : absolute;
+  margin              : 0;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.artboard .path10 {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 22.12%;
+  top                 : 3.87%;
+  height              : 1.73%;
+  width               : 1.88%;
+  position            : absolute;
+  margin              : 0;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.artboard .path11 {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 26.37%;
+  top                 : 15.60%;
+  height              : 2.87%;
+  width               : 7.12%;
+  position            : absolute;
+  margin              : 0;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.artboard .oval {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 29.00%;
+  top                 : 16.67%;
+  height              : 0.80%;
+  width               : 1.25%;
+  position            : absolute;
+  margin              : 0;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.artboard .oval1 {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 4.50%;
+  top                 : 17.60%;
+  height              : 0.80%;
+  width               : 1.25%;
+  position            : absolute;
+  margin              : 0;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.artboard .oval2 {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 15.50%;
+  top                 : 19.13%;
+  height              : 0.80%;
+  width               : 1.25%;
+  position            : absolute;
+  margin              : 0;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.artboard .path12 {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 2.37%;
+  top                 : 17.40%;
+  height              : 2.60%;
+  width               : 6.25%;
+  position            : absolute;
+  margin              : 0;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.artboard .path13 {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 11.38%;
+  top                 : 18.67%;
+  height              : 1.27%;
+  width               : 11.25%;
+  position            : absolute;
+  margin              : 0;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.artboard .path14 {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 23.00%;
+  top                 : 1.33%;
+  height              : 1.47%;
+  width               : 3.38%;
+  position            : absolute;
+  margin              : 0;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.artboard .path15 {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 21.50%;
+  top                 : 5.53%;
+  height              : 0.87%;
+  width               : 0.75%;
+  position            : absolute;
+  margin              : 0;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.artboard .path151 {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 21.38%;
+  top                 : 7.67%;
+  height              : 0.87%;
+  width               : 0.75%;
+  position            : absolute;
+  margin              : 0;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.artboard .path16 {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 22.50%;
+  top                 : 6.67%;
+  height              : 0.87%;
+  width               : 0.50%;
+  position            : absolute;
+  margin              : 0;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.artboard .path30 {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 27.38%;
+  top                 : 26.67%;
+  height              : 1.67%;
+  width               : 0.25%;
+  position            : absolute;
+  margin              : 0;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.artboard .path31 {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 26.00%;
+  top                 : 27.13%;
+  height              : 1.27%;
+  width               : 0.25%;
+  position            : absolute;
+  margin              : 0;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.artboard .path32 {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 24.63%;
+  top                 : 25.27%;
+  height              : 2.47%;
+  width               : 4.00%;
+  position            : absolute;
+  margin              : 0;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.artboard .path33 {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 26.50%;
+  top                 : 27.53%;
+  height              : 0px;
+  width               : 1.13%;
+  position            : absolute;
+  margin              : 0;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.artboard .path34 {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 26.50%;
+  top                 : 27.80%;
+  height              : 0px;
+  width               : 1.00%;
+  position            : absolute;
+  margin              : 0;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.artboard .path35 {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 26.37%;
+  top                 : 27.93%;
+  height              : 0px;
+  width               : 1.13%;
+  position            : absolute;
+  margin              : 0;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.artboard .path36 {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 26.37%;
+  top                 : 28.20%;
+  height              : 0px;
+  width               : 1.13%;
+  position            : absolute;
+  margin              : 0;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.artboard .path37 {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 24.38%;
+  top                 : 24.80%;
+  height              : 3.00%;
+  width               : 4.75%;
+  position            : absolute;
+  margin              : 0;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.artboard .path301 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 42.80%;
+  height              : 1.60%;
+  width               : 0.37%;
+  position            : absolute;
+  margin              : 0;
+  left                : 26.00%;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.artboard .path311 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 43.27%;
+  height              : 1.20%;
+  width               : 0px;
+  position            : absolute;
+  margin              : 0;
+  left                : 27.50%;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.artboard .path321 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 41.33%;
+  height              : 2.47%;
+  width               : 4.00%;
+  position            : absolute;
+  margin              : 0;
+  left                : 25.00%;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.artboard .path331 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 43.60%;
+  height              : 0px;
+  width               : 1.00%;
+  position            : absolute;
+  margin              : 0;
+  left                : 26.12%;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.artboard .path341 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 43.87%;
+  height              : 0px;
+  width               : 0.88%;
+  position            : absolute;
+  margin              : 0;
+  left                : 26.25%;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.artboard .path351 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 44.07%;
+  height              : 0px;
+  width               : 1.00%;
+  position            : absolute;
+  margin              : 0;
+  left                : 26.25%;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.artboard .path361 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 44.27%;
+  height              : 0px;
+  width               : 1.00%;
+  position            : absolute;
+  margin              : 0;
+  left                : 26.25%;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.artboard .path371 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 40.67%;
+  height              : 3.27%;
+  width               : 5.62%;
+  position            : absolute;
+  margin              : 0;
+  left                : 24.12%;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.artboard .path302 {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 28.37%;
+  bottom              : 38.33%;
+  height              : 1.60%;
+  width               : 0.37%;
+  position            : absolute;
+  margin              : 0;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.artboard .path312 {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 27.13%;
+  bottom              : 38.27%;
+  height              : 1.20%;
+  width               : 0px;
+  position            : absolute;
+  margin              : 0;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.artboard .path322 {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 25.75%;
+  bottom              : 38.93%;
+  height              : 2.47%;
+  width               : 4.00%;
+  position            : absolute;
+  margin              : 0;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.artboard .path332 {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 27.63%;
+  bottom              : 39.00%;
+  height              : 0px;
+  width               : 1.00%;
+  position            : absolute;
+  margin              : 0;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.artboard .path342 {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 27.63%;
+  bottom              : 38.73%;
+  height              : 0px;
+  width               : 0.88%;
+  position            : absolute;
+  margin              : 0;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.artboard .path352 {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 27.50%;
+  bottom              : 38.60%;
+  height              : 0px;
+  width               : 1.00%;
+  position            : absolute;
+  margin              : 0;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.artboard .path362 {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 27.50%;
+  bottom              : 38.33%;
+  height              : 0px;
+  width               : 1.00%;
+  position            : absolute;
+  margin              : 0;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.artboard .path372 {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 24.63%;
+  bottom              : 38.80%;
+  height              : 3.47%;
+  width               : 6.37%;
+  position            : absolute;
+  margin              : 0;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.artboard .path303 {
+  background-color    : rgba(255,255,255,0.0);
+  bottom              : 21.00%;
+  height              : 1.60%;
+  width               : 0.37%;
+  position            : absolute;
+  margin              : 0;
+  left                : 27.13%;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.artboard .path313 {
+  background-color    : rgba(255,255,255,0.0);
+  bottom              : 20.93%;
+  height              : 1.20%;
+  width               : 0px;
+  position            : absolute;
+  margin              : 0;
+  left                : 28.62%;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.artboard .path323 {
+  background-color    : rgba(255,255,255,0.0);
+  bottom              : 21.60%;
+  height              : 2.47%;
+  width               : 4.00%;
+  position            : absolute;
+  margin              : 0;
+  left                : 26.12%;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.artboard .path333 {
+  background-color    : rgba(255,255,255,0.0);
+  bottom              : 21.67%;
+  height              : 0px;
+  width               : 1.00%;
+  position            : absolute;
+  margin              : 0;
+  left                : 27.25%;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.artboard .path343 {
+  background-color    : rgba(255,255,255,0.0);
+  bottom              : 21.40%;
+  height              : 0px;
+  width               : 0.88%;
+  position            : absolute;
+  margin              : 0;
+  left                : 27.38%;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.artboard .path353 {
+  background-color    : rgba(255,255,255,0.0);
+  bottom              : 21.27%;
+  height              : 0px;
+  width               : 1.00%;
+  position            : absolute;
+  margin              : 0;
+  left                : 27.38%;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.artboard .path363 {
+  background-color    : rgba(255,255,255,0.0);
+  bottom              : 21.00%;
+  height              : 0px;
+  width               : 1.00%;
+  position            : absolute;
+  margin              : 0;
+  left                : 27.38%;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.artboard .path373 {
+  background-color    : rgba(255,255,255,0.0);
+  bottom              : 21.47%;
+  height              : 3.87%;
+  width               : 7.87%;
+  position            : absolute;
+  margin              : 0;
+  left                : 24.12%;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.artboard .bitmap {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 479px;
+  height              : 29px;
+  width               : 29px;
+  position            : absolute;
+  margin              : 0;
+  left                : 275px;
+  -ms-transform       : rotate(146deg); /* IE 9 */
+  -webkit-transform   : rotate(146deg); /* Chrome, Safari, Opera */
+  transform           : rotate(146deg);
+}
+.artboard .bitmap1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 495px;
+  height              : 29px;
+  width               : 29px;
+  position            : absolute;
+  margin              : 0;
+  left                : 316px;
+  -ms-transform       : rotate(146deg); /* IE 9 */
+  -webkit-transform   : rotate(146deg); /* Chrome, Safari, Opera */
+  transform           : rotate(146deg);
+}
+.artboard .bitmap2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 519px;
+  height              : 29px;
+  width               : 29px;
+  position            : absolute;
+  margin              : 0;
+  left                : 353px;
+  -ms-transform       : rotate(146deg); /* IE 9 */
+  -webkit-transform   : rotate(146deg); /* Chrome, Safari, Opera */
+  transform           : rotate(146deg);
+}
+.artboard .bitmap3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 740px;
+  height              : 29px;
+  width               : 29px;
+  position            : absolute;
+  margin              : 0;
+  left                : 255px;
+  -ms-transform       : rotate(222deg); /* IE 9 */
+  -webkit-transform   : rotate(222deg); /* Chrome, Safari, Opera */
+  transform           : rotate(222deg);
+}
+.artboard .bitmap4 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 756px;
+  height              : 29px;
+  width               : 29px;
+  position            : absolute;
+  margin              : 0;
+  left                : 220px;
+  -ms-transform       : rotate(222deg); /* IE 9 */
+  -webkit-transform   : rotate(222deg); /* Chrome, Safari, Opera */
+  transform           : rotate(222deg);
+}
+.artboard .bitmap5 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 785px;
+  height              : 29px;
+  width               : 29px;
+  position            : absolute;
+  margin              : 0;
+  left                : 187px;
+  -ms-transform       : rotate(222deg); /* IE 9 */
+  -webkit-transform   : rotate(222deg); /* Chrome, Safari, Opera */
+  transform           : rotate(222deg);
+}
+.artboard .bitmap6 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 976px;
+  height              : 29px;
+  width               : 29px;
+  position            : absolute;
+  margin              : 0;
+  left                : 220px;
+  -ms-transform       : rotate(130deg); /* IE 9 */
+  -webkit-transform   : rotate(130deg); /* Chrome, Safari, Opera */
+  transform           : rotate(130deg);
+}
+.artboard .bitmap7 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 987px;
+  height              : 29px;
+  width               : 29px;
+  position            : absolute;
+  margin              : 0;
+  left                : 264px;
+  -ms-transform       : rotate(130deg); /* IE 9 */
+  -webkit-transform   : rotate(130deg); /* Chrome, Safari, Opera */
+  transform           : rotate(130deg);
+}
+.artboard .bitmap8 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1017px;
+  height              : 29px;
+  width               : 29px;
+  position            : absolute;
+  margin              : 0;
+  left                : 293px;
+  -ms-transform       : rotate(130deg); /* IE 9 */
+  -webkit-transform   : rotate(130deg); /* Chrome, Safari, Opera */
+  transform           : rotate(130deg);
+}
+.artboard .syllabi {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 379px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : -3px;
+  -ms-transform       : rotate(-90deg); /* IE 9 */
+  -webkit-transform   : rotate(-90deg); /* Chrome, Safari, Opera */
+  transform           : rotate(-90deg);
+  font-family         : "GB18030Bitmap", Helvetica, Arial, serif;
+  font-size           : 13.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 17.0px;
+}
+/* .anima-animate-appear prefix for appear animations */
+.anima-animate-appear {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
+}
+.anima-animate-disappear {
+  opacity             : 1;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+}
+.anima-animate-nodelay {
+  -webkit-animation-delay: 0;
+  -moz-animation-delay: 0;
+  -o-animation-delay  : 0;
+  animation-delay     : 0;
+}
+@-webkit-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-moz-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-o-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
